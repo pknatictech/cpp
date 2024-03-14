@@ -1,21 +1,11 @@
-#include <iostream>
-using namespace std;
+    #include <stdio.h>
+    #include <iostream>
+    using namespace std;
+    int main()
+    {
+        int array[] = {10, 20, 30};
+        cout << -2[array];
+       
 
-int main() {
-	int n;
-	cin >> n;
-
-	bool divided = false;
-	for (int d = 2;d < n; d++) {
-		if (n % d == 0) {
-			divided = true;
-		}
-	}
-
-	if (divided) {
-		cout << "Not prime" << endl;
-	} else {
-		cout << "Prime" << endl;
-	}
-}
-
+        return 0;
+    }
